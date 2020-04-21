@@ -1,5 +1,5 @@
 const keys = require('../keys')
-// const sgMail = require('@sendgrid/mail')
+const sgMail = require('@sendgrid/mail')
 
 module.exports = function (email, token) {
     return{
