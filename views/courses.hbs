@@ -1,4 +1,4 @@
-<h1>Курсы</h1>
+<h1>Машины</h1>
 
 {{#if courses.length}}
 {{#each courses}}
@@ -13,7 +13,7 @@
         <p class="price">{{price}}</p>
       </div>
       <div class="card-action actions">
-        <a href="/courses/{{id}}" target="_blank">Открыть курс</a>
+        <a href="/courses/{{id}}" target="_blank">Подробнее о машине</a>
         {{#if @root.isAuth}}
 
           {{#ifeq userId._id @root.userId}}
